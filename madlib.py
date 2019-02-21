@@ -6,6 +6,7 @@ import re
 
 def madlib(usr_inp=[]):
     """ Console app that generates MadLib from text file + user input """
+    print('** This is a CLI MadLib app; for each prompt below, enter a value of your choice **')
     text = ''
     words = []
     with open('assets/madlib_text', 'r') as file:
